@@ -1,0 +1,359 @@
+<div>
+    <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- Start Page Content -->
+        <!-- ============================================================== -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="white-box">
+                    <h3 class="box-title">Add Spends</h3>
+                    <p class="text-muted">Users <code>.table</code></p>
+                    <div class="table-responsive">
+                        <table class="table text-nowrap">
+                            <thead>
+                                <tr>
+                                    <th class="border-top-0">#</th>
+                                    <th class="border-top-0">Name</th>
+                                    <th class="border-top-0">Place</th>
+                                    <th class="border-top-0">Date</th>
+                                    <th class="border-top-0">Mode</th>
+                                    <th class="border-top-0">Options</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>1</td>
+                                <td>Roshan</td>
+                                <td>Gangtok</td>
+                                <td>01/11/2022</td>
+                                <td>Road</td>
+                                <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#User1">
+                                    Add
+                                  </button></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Joshi</td>
+                                <td>Jammu</td>
+                                <td>03/11/2022</td>
+                                <td>Air</td>
+                                <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#User2">
+                                    Add
+                                  </button></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Nigam</td>
+                                <td>Patna</td>
+                                <td>01/12/2022</td>
+                                <td>Train</td>
+                                <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#User3">
+                                    Add
+                                  </button></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+              <div class="white-box">
+                  <h3 class="box-title">Update Spends</h3>
+                  <p class="text-muted">Users <code>.table</code></p>
+                  <div class="table-responsive">
+                      <table class="table text-nowrap">
+                          <thead>
+                              <tr>
+                                  <th class="border-top-0">#</th>
+                                  <th class="border-top-0">Name</th>
+                                  <th class="border-top-0">Place</th>
+                                  <th class="border-top-0">Date</th>
+                                  <th class="border-top-0">Mode</th>
+                                  <th class="border-top-0">Options</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>1</td>
+                              <td>Roshan</td>
+                              <td>Gangtok</td>
+                              <td>01/11/2022</td>
+                              <td>Road</td>
+                              <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#User4">
+                                  Update
+                                </button>&nbsp;
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#User41">
+                                  View Spends
+                                </button></td>
+                          </tr>
+                          <tr>
+                              <td>2</td>
+                              <td>Joshi</td>
+                              <td>Jammu</td>
+                              <td>03/11/2022</td>
+                              <td>Air</td>
+                              <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#User5">
+                                  Update
+                                </button>&nbsp;
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#User51">
+                                  View Spends
+                                </button></td>
+                          </tr>
+                          <tr>
+                              <td>3</td>
+                              <td>Nigam</td>
+                              <td>Patna</td>
+                              <td>01/12/2022</td>
+                              <td>Train</td>
+                              <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#User6">
+                                  Update
+                                </button>&nbsp;
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#User61">
+                                  View Spends
+                                </button>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
+        <!-- ============================================================== -->
+        <!-- End PAge Content -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Right sidebar -->
+        
+        <!-- ============================================================== -->
+        <!-- .right-sidebar -->
+        <!-- ============================================================== -->
+        <!-- End Right sidebar -->
+        <!-- ============================================================== -->
+    </div>
+    
+    <div class="modal fade" id="User1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Add Data</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="form-group">
+                <input type="text" placeholder="Name" class="form-control" formControlName=""><br>
+                <input type="text" placeholder="Place" class="form-control" formControlName=""><br>
+                <input type="text" placeholder="Date" class="form-control" formControlName=""><br>
+                <input type="text" placeholder="Budget" class="form-control" formControlName=""><br>
+                <button type="button" class="btn btn-primary submit">Submit</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="User2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Add Data</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="form-group">
+                <input type="text" placeholder="Name" class="form-control" formControlName=""><br>
+                <input type="text" placeholder="Place" class="form-control" formControlName=""><br>
+                <input type="text" placeholder="Date" class="form-control" formControlName=""><br>
+                <input type="text" placeholder="Budget" class="form-control" formControlName=""><br>
+                <button type="button" class="btn btn-primary submit">Submit</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="User3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Add Data</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="form-group">
+                <input type="text" placeholder="Name" class="form-control" formControlName=""><br>
+                <input type="text" placeholder="Place" class="form-control" formControlName=""><br>
+                <input type="text" placeholder="Date" class="form-control" formControlName=""><br>
+                <input type="text" placeholder="Budget" class="form-control" formControlName=""><br>
+                <button type="button" class="btn btn-primary submit">Submit</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="User4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Update Data</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="form-group">
+                <input type="text" value="sample" placeholder="Name" class="form-control" formControlName=""><br>
+                <input type="text" value="sample" placeholder="Place" class="form-control" formControlName=""><br>
+                <input type="text" value="sample" placeholder="Date" class="form-control" formControlName=""><br>
+                <input type="text" value="sample" placeholder="Budget" class="form-control" formControlName=""><br>
+                <button type="button" class="btn btn-primary submit">Submit</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="User5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Update Data</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="form-group">
+                <input type="text" value="sample" placeholder="Name" class="form-control" formControlName=""><br>
+                <input type="text" value="sample" placeholder="Place" class="form-control" formControlName=""><br>
+                <input type="text" value="sample" placeholder="Date" class="form-control" formControlName=""><br>
+                <input type="text" value="sample" placeholder="Budget" class="form-control" formControlName=""><br>
+                <button type="button" class="btn btn-primary submit">Submit</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="User6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Update Data</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="form-group">
+                <input type="text" value="sample" placeholder="Name" class="form-control" formControlName=""><br>
+                <input type="text" value="sample" placeholder="Place" class="form-control" formControlName=""><br>
+                <input type="text" value="sample" placeholder="Date" class="form-control" formControlName=""><br>
+                <input type="text" value="sample" placeholder="Budget" class="form-control" formControlName=""><br>
+                <button type="button" class="btn btn-primary submit">Submit</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="User41" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Update Data</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="form-group">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" value="sample" placeholder="Name" class="form-control" formControlName="" readonly><br>
+                    <input type="text" value="sample" placeholder="Place" class="form-control" formControlName="" readonly><br>
+                    <input type="text" value="sample" placeholder="Date" class="form-control" formControlName="" readonly><br>
+                    <input type="text" value="sample" placeholder="Budget" class="form-control" formControlName="" readonly><br>
+                    <button type="button" class="btn btn-primary">Update</button>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" value="sample" placeholder="Name" class="form-control" formControlName=""><br>
+                    <input type="text" value="sample" placeholder="Place" class="form-control" formControlName=""><br>
+                    <input type="text" value="sample" placeholder="Date" class="form-control" formControlName=""><br>
+                    <input type="text" value="sample" placeholder="Budget" class="form-control" formControlName=""><br>
+                    <button type="button" class="btn btn-primary submit">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="User51" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Update Data</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="form-group">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" value="sample" placeholder="Name" class="form-control" formControlName="" readonly><br>
+                    <input type="text" value="sample" placeholder="Place" class="form-control" formControlName="" readonly><br>
+                    <input type="text" value="sample" placeholder="Date" class="form-control" formControlName="" readonly><br>
+                    <input type="text" value="sample" placeholder="Budget" class="form-control" formControlName="" readonly><br>
+                    <button type="button" class="btn btn-primary">Update</button>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" value="sample" placeholder="Name" class="form-control" formControlName=""><br>
+                    <input type="text" value="sample" placeholder="Place" class="form-control" formControlName=""><br>
+                    <input type="text" value="sample" placeholder="Date" class="form-control" formControlName=""><br>
+                    <input type="text" value="sample" placeholder="Budget" class="form-control" formControlName=""><br>
+                    <button type="button" class="btn btn-primary submit">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="User61" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Update Data</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="form-group">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" value="sample" placeholder="Name" class="form-control" formControlName="" readonly><br>
+                    <input type="text" value="sample" placeholder="Place" class="form-control" formControlName="" readonly><br>
+                    <input type="text" value="sample" placeholder="Date" class="form-control" formControlName="" readonly><br>
+                    <input type="text" value="sample" placeholder="Budget" class="form-control" formControlName="" readonly><br>
+                    <button type="button" class="btn btn-primary">Update</button>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" value="sample" placeholder="Name" class="form-control" formControlName=""><br>
+                    <input type="text" value="sample" placeholder="Place" class="form-control" formControlName=""><br>
+                    <input type="text" value="sample" placeholder="Date" class="form-control" formControlName=""><br>
+                    <input type="text" value="sample" placeholder="Budget" class="form-control" formControlName=""><br>
+                    <button type="button" class="btn btn-primary submit">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
